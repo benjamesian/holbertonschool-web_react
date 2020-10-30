@@ -1,7 +1,5 @@
 import $ from 'jquery';
-// import _ from 'lodash';
-const debounce = require('lodash/debounce');
-// console.log('lld', _, $);
+import debounce from 'lodash/debounce';
 
 $("body").append(
   "<p>Holberton Dashboard</p>",
